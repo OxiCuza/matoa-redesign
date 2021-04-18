@@ -1,0 +1,17 @@
+.navigations {
+    &--primary {
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin-right: 40px;
+            }
+        }
+    }
+}
+
+ul {
+    margin-bottom: 0;
+}

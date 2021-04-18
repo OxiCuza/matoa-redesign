@@ -1,0 +1,31 @@
+footer {
+    color: $color-white;
+    // padding: 0 100px;
+}
+
+.footer {
+    &__sponsor {
+        background-color: $color-secondary-light;
+        padding: 40px 100px;
+    }
+
+    &__navigations {
+        background-color: $color-secondary-dark;
+        padding: 50px 100px;
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
