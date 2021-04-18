@@ -14,5 +14,5 @@ npm install
 
 3. Update SCSS or JS
 ```bash
-npm run dev
+npm run compile:sass
 ```

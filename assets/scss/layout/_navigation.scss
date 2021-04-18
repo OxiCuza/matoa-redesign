@@ -15,3 +15,21 @@
 ul {
     margin-bottom: 0;
 }
+
+.section {
+    &__detail-products {
+
+        .nav-item {
+            &:not(:last-child) {
+                margin-right: 40px !important;
+            }
+        }
+
+        button.active {
+            background-color: transparent !important;
+            color: $color-secondary-dark !important;
+            border-radius: 0;
+            border-bottom: 1px solid $color-secondary-dark;
+        }
+    }
+}
