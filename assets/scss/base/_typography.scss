@@ -10,6 +10,17 @@ body {
 		font-weight: 400;
 		line-height: 80px;
 		letter-spacing: 2%;
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100px;
+			height: 2px;
+			background-color: $color-black;
+			bottom: 0;
+			left: 0;
+		}
 	}
 
 	&--secondary {
@@ -20,6 +31,24 @@ body {
 	}
 
 	&--tertiary {
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 40px;
+		letter-spacing: 2%;
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 60px;
+			height: 2px;
+			background-color: $color-black;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	&--tertiary-white {
 		font-size: 24px;
 		font-weight: 500;
 		line-height: 40px;
@@ -84,6 +113,10 @@ body {
 			letter-spacing: 2%;
 		}
 	}
+
+	&--grey {
+		color: $color-grey;
+	}
 }
 
 a {
@@ -91,7 +124,16 @@ a {
 	text-decoration: none;
 
 	&:hover {
-		color: $color-black;
+		color: $color-grey;
 		text-decoration: underline;
+	}
+
+	&.underline {
+		border-bottom: 1px solid $color-black;
+
+		&:hover {
+			text-decoration: none;
+			border-bottom: 1px solid $color-grey;
+		}
 	}
 }

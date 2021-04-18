@@ -1,0 +1,26 @@
+.modal-cart {
+    max-width: 85%;
+
+    &--img {
+        width: 144px;
+        height: 144px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-primary;
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .action-cart {
+        &--delete {
+            margin-left: 15px;
+        }
+    }
+
+    .cart--subtotal {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: end;
+    }
+}
