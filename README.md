@@ -1,18 +1,54 @@
-# MATOA Website Redesign
 
-## Setup
+# Redesign MATOA Website
 
-1. Make sure to pull latest update of application
+Welcome to the exciting world of the Redesign MATOA Website! This passion project was created to enhance my frontend development skills and immerse myself in the art of user-centric design. With a fresh perspective on MATOA's existing website, I recreate every element to create an immersive and visually captivating user experience from existing design in internet
+
+
+
+## Tech Stack
+
+**Client:** SCSS, Fontawesome5, NodeJS v14
+
+
+## Screenshots
+
+![App Screenshot](https://oxicuza.github.io/assets/img/work/work-6.png)
+
+
+## Features
+
+- Landing Page
+- List Product
+- Product Detail
+- Modal Cart
+
+
+## Run Locally
+
+Clone the project
+
 ```bash
-git pull
+  git clone https://github.com/OxiCuza/matoa-redesign.git
 ```
 
-2. Install or Update NPM dependencies
+Install NPM dependencies
 ```bash
-npm install
+  npm install
 ```
 
-3. Update SCSS or JS
+Update SCSS
+
 ```bash
-npm run compile:sass
+  npm run compile:sass
 ```
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at oxicusa@gmail.com
+
+
+## Authors
+
+- Oxicusa Gugi H. - [@OxiCuza](https://github.com/OxiCuza)
+
